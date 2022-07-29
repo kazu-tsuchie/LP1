@@ -1,0 +1,573 @@
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+
+a {
+text-decoration: none;
+color: #333;
+}
+
+li {
+list-style: none;
+}
+
+
+.header_wrapper {
+  width: 100%;
+  background-color: #28292b;
+}
+
+.inner {
+  margin-left: 10%;
+}
+
+.header_nav {
+  display: flex;
+}
+
+.header_nav p {
+  width: 80%;
+  text-align: left;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.header_nav ul {
+  width: 100%;
+  display: table;
+  font-weight: 700;
+}
+
+.header_nav ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.header_nav ul li a {
+  display: inline-block;
+  font-weight:700;
+  color: #fff;
+}
+
+.header_nav ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ddd;
+}
+
+.header_nav ul li a span {
+  display: block;
+  margin-top: 5%;
+  font-size: 0.75rem;
+}
+
+/* -- top ----- */
+.top_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #28292b;
+}
+
+.top_wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.top_inner {
+  display: flex;
+  /text-align: center;
+}
+
+.top_inner1 {
+  width: 40%;
+}
+
+.top_inner2 {
+  width: 60%;
+}
+
+.top_inner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.top_inner p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ccc;
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 50%;
+}
+
+.top_inner img {
+  position: relative;
+  top:10%;
+  left: 20%;
+  width: 70%;
+  height: 90%;
+}
+
+
+/* -- pickup ----- */
+.pickup_wrapper {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(180deg,#28292b 0%,#28292b 50%,#FFFFFF 50%,#FFFFFF 100%);
+}
+
+.pickup_inner {
+  position: relative;
+  background-color: #f6f4ef;
+  top 0;
+  left: 30%;
+  width: 70%;
+  height: 100%;
+}
+
+.pickup_inner h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.pickup_list {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content:space-between
+}
+
+.pickup_list img {
+  width: 180px;
+  height: 230px;
+}
+
+.pickup_list p {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+
+/* -- about ----- */
+.about_wrapper {
+  height: 120vh;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 10%, #28292b 10%, #28292b 100%);
+}
+
+.about_wrapper > .inner {
+  display: flex;
+}
+
+.about_descript {
+  color: #DDDDDD;
+  margin-top: 10%;
+}
+
+.about_descript h2 {
+  margin-bottom: 40px;
+}
+
+.about_descript > .sub_title {
+  margin-bottom: 30px;
+}
+
+.about_descript > .text_descript {
+  width: 60%;
+}
+
+.about_img img {
+  width: 500px;
+  height: 750px;px;
+}
+
+/* -- photo ----- */
+.photo_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 50%, #000000 50%, #000000 100%);
+  width: 100%;
+  height: 70vh;
+  padding-top: 100px;
+}
+
+.photo_wrapper img {
+  width: 500px;
+  height: 300px;
+}
+
+.photo_wrapper p {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 3%;
+}
+
+.photo_wrapper > .photo_3 p {
+  color: #DDDDDD;
+}
+
+
+/* -- menu ----- */
+.menu_wrapper {
+  background-color: #f6f4ef;
+  padding-bottom: 5%;
+}
+
+.menu_title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu_title h2 {
+  padding-top: 50px;
+}
+
+.menu_title p {
+  padding-top: 30px;
+}
+
+.menu_list {
+  display: flex;
+  width: 75%;
+  height: 80vh;
+  margin: 5% auto;
+  background: linear-gradient(90deg, #f6f4ef 0%, #f6f4ef 20%, #FFFFFF 20%, #FFFFFF 100%);
+}
+
+.menu_list img {
+  width: 500px;
+  height: 500px;
+}
+
+.menu_descript h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.menu_descript .menu_eng {
+  color: #888;
+  font-size: 0.9rem;
+  padding: 0 5%;
+}
+
+.menu_descript .menu_p1 {
+  font-size: 1.0rem;
+  padding: 5% 5%;
+}
+
+.menu_descript .menu_p2 {
+  color: #666;
+  font-size: 0.8rem;
+  padding: 5% 5%;
+}
+
+.menu_sub_photo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu_sub_photo img {
+  width: 220px;
+  height: 155px;
+  border: 2px solid;
+  border-color: #edf1a0;
+}
+
+
+/* -- product ----- */
+.product_wrapper {
+  background-color: #fff;
+}
+
+.product_title h2 {
+  padding-top: 50px;
+  padding-left: 5%;
+}
+
+.product_title p {
+  padding-top: 20px;
+  padding-left: 5%;
+}  
+
+.product_inner {
+  display: flex;
+  width: 70%;
+  margin: 5% auto;
+}
+
+.product_photo {
+  width: 45%;
+}
+
+.product_descript {
+  width: 50%;
+}
+
+.product_photo img {
+  margin: 5% 0;
+}
+
+.product_descript h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-top: 5%;
+}
+
+.product_descript > .product_p1 {
+  font-size: 1.0rem;
+  padding: 2% 0;
+}
+
+.product_descript > .product_p2 {
+  color: #666;
+  font-size: 0.8rem;
+  padding: 2% 0;
+}
+
+.product_descript > .product_p3 {
+  color: #666;
+  font-size: 0.7rem;
+  padding: 2% 0;
+}
+
+.product_table_title {
+  width: 80%;
+  border-bottom: solid 1px #999;
+  padding: 5px;
+}
+
+.product_table table {
+  padding: 5% 0;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+.product_table th {
+  width: 70px;
+  background-color: #aaa;
+  border-radius: 15%;
+  color: #eee;
+  text-align: center;
+}
+
+.product_table td {
+  padding-left: 20px;
+  color: #666;
+}
+
+/* -- news ----- */
+.news_wrapper {
+  background-color: #f6f4ef;
+  width: 100%;
+  height: 95vh;
+}
+
+.news_wrapper h2 {
+  text-align: center;
+  padding: 5% 0;
+} 
+
+.news_inner {
+  width: 65%;
+  margin: 0 auto;
+}
+.news_outline {
+  display: flex;
+  padding: 1% 0;
+  border-bottom: solid 1px #666;
+}
+
+.new_news {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #000000;
+  color: #fff;
+}
+
+.old_news {
+  width: 50px;
+  height: 50px;
+  color: #f6f4ef;
+}
+
+.new_row {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.news_outline_content {
+  padding-left: 2%;
+}
+
+.news_outline_content > .news_date {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.news_outline_content > .news_sum {
+  font-weight: bold;
+}
+
+
+/* -- contact ----- */
+.contact_wrapper {
+  height: 100vh;
+  background-color: #28292b;
+}
+
+.contact_inner {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+  color: #CCCCCC;
+}
+
+.contact_1 {
+  width: 40%;
+}
+
+.contact_2 {
+  width: 20%;
+}
+
+.contact_2 a {
+  color: #CCCCCC;
+}
+
+.contact_3 {
+  width: 20%;
+}
+
+.contact_4 {
+  width: 20%;
+}
+
+.contact_1 h2 {
+  padding-bottom: 5%;
+}
+.contact_1 p {
+  padding-top: 8%;
+  padding-left: 8%;
+  font-size: 1.1rem;
+}
+
+.contact_2 {
+  padding-top: 8%;
+  font-size: 1.1rem;
+}
+
+.contact_2 p {
+  padding: 5px 0;
+}
+
+.contact_3 {
+  padding-top: 8%;
+  font-size: 1.1rem;
+}
+
+.contact_3 p {
+  padding: 5px 0;
+}
+
+p.contact_tel::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/tel.png) no-repeat;
+  vertical-align: middle;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+p.contact_mail::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/mail.png) no-repeat;
+  vertical-align: middle;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.contact_4 {
+  padding-top: 8%;
+  font-size: 1.1rem;
+}
+
+.contact_4 p {
+  padding: 5px 0;
+}
+
+.contact_sns p span::after {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/twitter.png) no-repeat;
+  vertical-align: middle;
+  background-size: contain;
+  margin-left: 10px;
+}
+
+.contact_sns p::after {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/insta.png) no-repeat;
+  vertical-align: middle;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+.contact_4 > .c_mark {
+  font-size: 0.8rem;
+}
+
+
+/* -- COMMON ----- */
+.title {
+  font-size: 2.0rem;
+  font-weight: 700;
+}
+
+.sub_title {
+  font-size: 1.0rem;
+  font-weight: 700;
+}
+
+.text_descript {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.under {
+  text-decoration: underline;
+}
+/* ----------------- */
