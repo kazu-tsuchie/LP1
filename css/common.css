@@ -454,7 +454,7 @@ list-style: none;
 .contact_inner {
   display: flex;
   width: 90%;
-  height: 90%;
+  /* height: 90%; */
   margin: 0 auto;
   padding-top: 5%;
   color: #CCCCCC;
@@ -563,7 +563,6 @@ p.contact_mail::before {
 .contact_4 > .c_mark {
   font-size: 0.8rem;
 }
-
 
 /* -- COMMON ----- */
 .title {
